@@ -14,7 +14,7 @@ def juman(text):
 result =[]
 noun=[]
 text=[]
-for line in open("","rb"):
+for line in open("test.txt","rb"):
     r =juman(line)
     r=r.strip()
     result.append(r)
